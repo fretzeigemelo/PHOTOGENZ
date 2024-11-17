@@ -10,8 +10,8 @@ const TabIcon = ({ icon, color }) => {
         source={icon}
         resizeMode="contain"
         style={{
-          width: 24, // Equivalent to w-6
-          height: 24, // Equivalent to h-6
+          width: 30, 
+          height: 30, 
           tintColor: color,
         }}
       />
@@ -21,67 +21,69 @@ const TabIcon = ({ icon, color }) => {
 
 const TabsLayout = () => {
   return (
-    <>
-      <Tabs>
-        <Tabs.Screen
-          name="home"
-          options={{
-            title: 'Home',
-            headerShown: false,
-            tabBarIcon: ({ color }) => (
-              <TabIcon
-                icon={icons.home}
-                color={color}
-              />
-            ),
-          }}
-        />
+    <Tabs
+      screenOptions={{
+        tabBarActiveTintColor: '#133E87', 
+        tabBarInactiveTintColor: '#133E87', 
+      }}
+    >
+      <Tabs.Screen
+        name="home"
+        options={{
+          title: 'Home',
+          headerShown: false,
+          tabBarIcon: ({ color }) => (
+            <TabIcon
+              icon={icons.home}
+              color={color}
+            />
+          ),
+        }}
+      />
 
-<Tabs.Screen
-          name="create"
-          options={{
-            title: 'Create',
-            headerShown: false,
-            tabBarIcon: ({ color }) => (
-              <TabIcon
-                icon={icons.create}
-                color={color}
-              />
-            ),
-          }}
-        />
+      <Tabs.Screen
+        name="favorites"
+        options={{
+          title: 'Favorite',
+          headerShown: false,
+          tabBarIcon: ({ color }) => (
+            <TabIcon
+              icon={icons.favorites}
+              color={color}
+            />
+          ),
+        }}
+      />
 
-<Tabs.Screen
-          name="project"
-          options={{
-            title: 'Project',
-            headerShown: false,
-            tabBarIcon: ({ color }) => (
-              <TabIcon
-                icon={icons.project}
-                color={color}
-              />
-            ),
-          }}
-        />
+      <Tabs.Screen
+        name="videos"
+        options={{
+          title: 'Video',
+          headerShown: false,
+          tabBarIcon: ({ color }) => (
+            <TabIcon
+              icon={icons.videos}
+              color={color}
+            />
+          ),
+        }}
+      />
 
-
-<Tabs.Screen
-          name="vote"
-          options={{
-            title: 'Vote',
-            headerShown: false,
-            tabBarIcon: ({ color }) => (
-              <TabIcon
-                icon={icons.vote}
-                color={color}
-              />
-            ),
-          }}
-        />
-      </Tabs>
-    </>
+      <Tabs.Screen
+        name="profile"
+        options={{
+          title: 'Profile',
+          headerShown: false,
+          tabBarIcon: ({ color }) => (
+            <TabIcon
+              icon={icons.profile}
+              color={color}
+            />
+          ),
+        }}
+      />
+    </Tabs>
   );
 };
 
-export default TabsLayout;
+export default TabsLayout

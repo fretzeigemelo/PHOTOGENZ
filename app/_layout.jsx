@@ -31,7 +31,7 @@ const MainLayout = () => {
   }
   
   return (
-    // <Slot></Slot>
+    
     <Stack>
 
       <Stack.Screen name="index" options={{

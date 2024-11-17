@@ -30,7 +30,7 @@ const CustomButton = ({
   );
 };
 
-export default CustomButton;
+export default CustomButton
 
 
 

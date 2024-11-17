@@ -1,5 +1,5 @@
 import logo from "../assets/images/logo.png";
-import portfolio from "../assets/images/portfolio.png";
+import camera from "../assets/images/camera.png";
 
 
-export default { logo, portfolio};
+export default { logo, camera};

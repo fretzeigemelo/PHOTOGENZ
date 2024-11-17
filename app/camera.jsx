@@ -1,14 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-const profile = () => {
+const camera = () => {
   return (
     <View>
-      <Text>profile</Text>
+      <Text>camera</Text>
     </View>
   )
 }
 
-export default profile
+export default camera
 
 const styles = StyleSheet.create({})
