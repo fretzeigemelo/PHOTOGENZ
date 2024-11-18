@@ -2,10 +2,10 @@
 PhotoGenZ Mobile App.
 
 # Features
-* Share Projects
-* Message other developers
-* Rate others work
-* Search other developers
+* Upload Multiple Photos, Videos, Or Designs As Part Of A Project
+* Encourages Collaboration And Connection Among Photographers
+* Rewards Exceptional Work And Motivates The Community
+* Photographers For Inspiration Or Collaboration
 
 # Course Overview
 * Basic React Native Components
