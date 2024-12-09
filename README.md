@@ -18,6 +18,9 @@ PhotoGenZ Mobile App.
 * AppWrite
 * HTML, CSS and JS
 
+# Video Upload App
+
+
 # Home Screen
 <img src="assets/images/screenshot/onboarding.png">  
 
