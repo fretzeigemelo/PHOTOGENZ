@@ -19,7 +19,7 @@ PhotoGenZ Mobile App.
 * HTML, CSS and JS
 
 # Video Upload App
-
+https://youtube.com/shorts/iIEM25tCIZc
 
 # Home Screen
 <img src="assets/images/screenshot/onboarding.png">  
